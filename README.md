@@ -1,5 +1,5 @@
 # Skill-Lync
-Website that enables clients to contact free lance laborers and tutors
+Website that enables clients to contact free lance laborers and tutors. This is a prototype... Development on a final site is underway.
 
 # Mission
 We seek to create a platform that not only provides income opportunities,

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--External Bootstrap-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!--For responsive text-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+
+  <!--JQuery-->
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!--Fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <!--CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/Styles.css">
+
+  <!--Animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="_image/png_" href="images/skill-lync_favicon.png">
+
+  <title>your profile</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header class="header">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="Home.html"><img class="headerLogo" src="images/vjh23-04 1.png" alt="image of logo"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="About.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="findTutors.php">TUTORS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Login.html">LOGIN</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button type="button" class="btn btn-primary btn-lg" style="align-self: center;" onclick="window.location.href = 'sign-up-as.html';">GET STARTED <i class="bi bi-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav> <!--END of Navigation Bar-->
+  </header> <!--END of header-->
+
+
+
+  <!-- Tutor profile section -->
+  <section class="your-tutor-profile p-2">
+    <div class="container">
+      <div class="row">
+        <h1>Your Profile</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md text-left">
+          <ul>
+            <li>Age: </li>
+            <li>Your location: </li>
+            <li>Your Subjects: </li>
+            <li>Grades: </li>
+            <li>Your Institution: </li>
+          </ul>
+        </div>
+
+        <div class="col-md text-right">
+          <img class="img-fluid" src="images/user_3237472 1.png" alt="image of you">
+          <h3><?php echo $username; ?></h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--- Tutor profile section END -->
+
+  <!-- Status bar section -->
+  <section class="tutor-status-bar p-3">
+    <div class="container">
+      <div class="row">
+        <div class="btnDiv col-md text-center">
+          <a href="findTutors.php" type="button" class="btn btn-primary">Find Tutors</a>
+        </div>
+
+        <div class="btnDiv col-md text-center">
+          <a href="#" type="button" class="btn btn-primary">Your Tutors</a>
+        </div>
+
+        <div class="btnDiv col-md text-center">
+          <a href="backend/logout.php" type="button" class="btn btn-primary">Log Out</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Status bar section END -->
+
+  <!-- Client info section -->
+  <section class="tutor-chat-box">
+    <div class="container py-5">
+
+      <div class="row">
+
+        <div class="col-md-6 col-lg-5 col-xl-4 mb-4 mb-md-0">
+
+          <div class="tutors-chat-card">
+            <div class="chat-header text-center text-lg-start p-2">
+              <h4>Payment System</h4>
+            </div>
+            <div class="card-body">
+
+              <ul class="list-unstyled mb-0">
+                <div class="client-message row">
+                  <li class="p-2">
+                    <a href="#!" class="d-flex justify-content-between">
+                      <div class="d-flex flex-row">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                        <div class="pt-1">
+                          <p class="client-chat-names fw-bold mb-0">John Doe</p>
+                          <p class="small text-muted">Hello, Are you there?</p>
+                        </div>
+                      </div>
+                      <div class="pt-1">
+                        <p class="small text-muted mb-1">Just now</p>
+                        <span class="badge float-end">1</span>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="client-message row">
+                  <li class="p-2">
+                    <a href="#!" class="d-flex justify-content-between">
+                      <div class="d-flex flex-row">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-1.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                        <div class="pt-1">
+                          <p class="client-chat-names fw-bold mb-0">Danny Smith</p>
+                          <p class="small text-muted">Lorem ipsum dolor sit.</p>
+                        </div>
+                      </div>
+                      <div class="pt-1">
+                        <p class="small text-muted mb-1">5 mins ago</p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="client-message row">
+                  <li class="p-2">
+                    <a href="#!" class="d-flex justify-content-between">
+                      <div class="d-flex flex-row">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                        <div class="pt-1">
+                          <p class="client-chat-names fw-bold mb-0">Alex Steward</p>
+                          <p class="small text-muted">Lorem ipsum dolor sit.</p>
+                        </div>
+                      </div>
+                      <div class="pt-1">
+                        <p class="small text-muted mb-1">Yesterday</p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="client-message row">
+                  <li class="p-2">
+                    <a href="#!" class="d-flex justify-content-between">
+                      <div class="d-flex flex-row">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-3.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                        <div class="pt-1">
+                          <p class="client-chat-names fw-bold mb-0">Ashley Olsen</p>
+                          <p class="small text-muted">Lorem ipsum dolor sit.</p>
+                        </div>
+                      </div>
+                      <div class="pt-1">
+                        <p class="small text-muted mb-1">Yesterday</p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="client-message row">
+                  <li class="p-2">
+                    <a href="#!" class="d-flex justify-content-between">
+                      <div class="d-flex flex-row">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-4.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                        <div class="pt-1">
+                          <p class="client-chat-names fw-bold mb-0">Kate Moss</p>
+                          <p class="small text-muted">Lorem ipsum dolor sit.</p>
+                        </div>
+                      </div>
+                      <div class="pt-1">
+                        <p class="small text-muted mb-1">Yesterday</p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="client-message row">
+                  <li class="p-2">
+                    <a href="#!" class="d-flex justify-content-between">
+                      <div class="d-flex flex-row">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                        <div class="pt-1">
+                          <p class="client-chat-names fw-bold mb-0">Lara Croft</p>
+                          <p class="small text-muted">Lorem ipsum dolor sit.</p>
+                        </div>
+                      </div>
+                      <div class="pt-1">
+                        <p class="small text-muted mb-1">Yesterday</p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="client-message row">
+                  <li class="p-2">
+                    <a href="#!" class="d-flex justify-content-between">
+                      <div class="d-flex flex-row">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                        <div class="pt-1">
+                          <p class="client-chat-names fw-bold mb-0">Brad Pitt</p>
+                          <p class="small text-muted">Lorem ipsum dolor sit.</p>
+                        </div>
+                      </div>
+                      <div class="pt-1">
+                        <p class="small text-muted mb-1">5 mins ago</p>
+                        <span class="text-muted float-end"><i class="fa fa-check" aria-hidden="true"></i></span>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tutor-message-text col-md-6 col-lg-7 col-xl-8">
+
+          <div class="text-center text-lg-start">
+            <h4 class="p-2">Tutor to be payed</h4>
+          </div>
+
+        </div>
+        </ul>
+
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+  <!-- Client info section END -->
+
+  <!-- Requests Modal -->
+  <section class="tutor-requests">
+    <div class="modal fade" id="tutor-requests" tabindex="-1" role="dialog" aria-labelledby="tutor-requestsTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Tutor Requests</h4>
+            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <ul class="list-unstyled mb-0">
+              <div class="tutor-request row">
+                <li class="p-2">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                      <div class="pt-1">
+                        <h5 class="client-chat-names text-center">Jacquise Webster III</h5>
+                      </div>
+                      <div class="col-md">
+                        <a href="#" type="button" class="btn btn-primary p-1" id="accept-button">Accept</a>
+                        <a href="#" type="button" class="btn btn-primary p-1" id="decline-button">Decline</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </div>
+
+              <div class="tutor-request row">
+                <li class="p-2">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                      <div class="pt-1">
+                        <h5 class="client-chat-names text-center">Jacquise Webster III</h5>
+                      </div>
+                      <div class="col-md">
+                        <a href="#" type="button" class="btn btn-primary p-1" id="accept-button">Accept</a>
+                        <a href="#" type="button" class="btn btn-primary p-1" id="decline-button">Decline</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </div>
+
+              <div class="tutor-request row">
+                <li class="p-2">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                      <div class="pt-1">
+                        <h5 class="client-chat-names text-center">Jacquise Webster III</h5>
+                      </div>
+                      <div class="col-md">
+                        <a href="#" type="button" class="btn btn-primary p-1" id="accept-button">Accept</a>
+                        <a href="#" type="button" class="btn btn-primary p-1" id="decline-button">Decline</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </div>
+
+              <div class="tutor-request row">
+                <li class="p-2">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                      <div class="pt-1">
+                        <h5 class="client-chat-names text-center">Jacquise Webster III</h5>
+                      </div>
+                      <div class="col-md">
+                        <a href="#" type="button" class="btn btn-primary p-1" id="accept-button">Accept</a>
+                        <a href="#" type="button" class="btn btn-primary p-1" id="decline-button">Decline</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </div>
+
+              <div class="tutor-request row">
+                <li class="p-2">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                      <div class="pt-1">
+                        <h5 class="client-chat-names text-center">Jacquise Webster III</h5>
+                      </div>
+                      <div class="col-md">
+                        <a href="#" type="button" class="btn btn-primary p-1" id="accept-button">Accept</a>
+                        <a href="#" type="button" class="btn btn-primary p-1" id="decline-button">Decline</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </div>
+
+              <div class="tutor-request row">
+                <li class="p-2">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp" alt="avatar" class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                      <div class="pt-1">
+                        <h5 class="client-chat-names text-center">Jacquise Webster III</h5>
+                      </div>
+                      <div class="col-md">
+                        <a href="#" type="button" class="btn btn-primary p-1" id="accept-button">Accept</a>
+                        <a href="#" type="button" class="btn btn-primary p-1" id="decline-button">Decline</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </div>
+            </ul>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--- Requests Modal END -->
+
+  <!--Footer-->
+  <footer class="p-2 text-center">
+    <div class="col-md-12" id="footer">
+      <div class="container text-center">
+        <div id="fh5co-logo"><a href="Home.html"><img src="images/vjh23-04 1.png" class="img-fluid" alt="Responsive image"></a></div>
+        <p>© 2023 Skill Lync. All Rights Reserved. <br> Designed by Skill Lync</p>
+      </div>
+      <div class="text-center" id="social-icons">
+        <ul>
+          <a href="https://instagram.com/skill.lync?utm_source=qr&igshid=MzNINGNkZWQ4Mg%3D%3D" target="_blank"><i class="instagram"></i><img src="images/ggu 1.png"></a></li>
+          <a href="https://www.linkedin.com/company/skill-lync-namibia/" target="_blank"><i class="LinkedIn"></i><img src="images/1KQYoqPY_400x400 1.png"></a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="container text-center" id="bottom-email">
+          <p class="responsive-text display-md-3 display-sm-4">skill.lync.nam@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--END of Footer-->
+
+  <!--Back to top button-->
+
+  <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!--END of Back to top button-->
+  <script src="js/Scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

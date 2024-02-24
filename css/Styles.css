@@ -1,0 +1,1265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+body {
+    padding-top: 90px;
+}
+
+/*Back to top button*/
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 50px;
+    border: none;
+    background: #1572B5;
+  }
+
+/*Back to top button*/
+
+.navbar{
+    background-color: white;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.active-nav-link {
+    color: #1BB5F8;
+}
+
+.logo{
+    height: 2px 10px;
+    width: 48px;
+}
+
+#navbarSupportedContent{
+    font-weight: bold;
+}
+
+nav {
+    padding: 24px;
+    text-align: center;
+    /*box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);*/
+  }
+  
+
+nav a:hover {
+    border-top: 4px solid #1BB5F8;
+    border-bottom: 4px solid #1BB5F8;
+    padding: 6px 0; 
+  }
+
+nav a {
+  transition: 0.3s ease;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 20px 0;
+  margin: 0 5px;
+}
+
+/* Header logo */
+  .navbar-header a {
+    transition: none;
+    color: white;
+    text-decoration: none;
+    border-top: white !important;
+    border-bottom: white !important;
+    padding: 20px 0;
+    margin: 0 5px;
+  }
+/* Header logo END */
+
+.d-flex .btn {
+    font-size: 20px;
+  }
+.d-flex .btn.btn-primary {
+    padding: 14px 30px !important;
+  }
+
+.bi{
+    font-size: 25px;
+}
+
+.Intro{
+    background: #1BB5F8;
+    padding: 5%;
+}
+
+.Intro h1, h2, h3, p{
+    color: white;
+    text-align: center;
+}
+
+.Intro h1{
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-size: normal;
+}
+
+.Intro-text {
+    padding-top: 10%;
+}
+
+#Intro-img{
+    margin-left: auto; 
+    display: block;
+}
+
+.card {
+    background-color: #1BB5F8;
+    border: none;
+}
+
+.Intro-btn .btn.btn-primary{
+    /* width: 256px;
+    height: 90px; */
+    background: #1572B5;
+    box-shadow: 0px 113px 45px rgba(0, 0, 0, 0.01), 
+    0px 63px 38px rgba(0, 0, 0, 0.05), 
+    0px 28px 28px rgba(0, 0, 0, 0.09), 
+    0px 7px 15px rgba(0, 0, 0, 0.1), 
+    0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+
+.Intro-btn .btn.btn-primary:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all;
+    color: #1572B5;
+    background: #FFF;
+}
+
+.link-section {
+    padding-top: 5%;
+}
+
+.link-section p {
+    color: #A2A3A4;
+}
+
+.d-flex .btn.btn-primary{
+    left: 1184px;
+    top: 4px;
+    background: #1572B5;
+    border-radius: 10px;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff;
+
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.d-flex .btn.btn-primary:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all;
+    background: #1BB5F8;
+}
+
+#stats{
+    padding-top: 10%;
+}
+
+#stats h2 {
+    font-weight: 800;
+    line-height: normal;
+}
+
+.counter {
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 23px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+
+.about{
+    padding: 5%;
+}
+
+.about img {
+    width: 800px;
+    height: 800px;
+}
+
+.about h1{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    text-align: end;
+}
+
+/*Founders cards*/
+#founders-card {
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+  }
+
+  #founders-card img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    height: 340px;
+  }
+
+/*Features section*/
+.features{
+    padding-bottom: 5%;
+}
+
+#features{
+    padding-top: 5%;
+}
+
+.quotes-btn .btn.btn-primary{
+    width: 256px;
+    height: 90px;
+    color: #A2A3A4;
+    background: #FFF;
+    box-shadow: 0px 124px 50px rgba(0, 0, 0, 0.01), 0px 70px 42px rgba(0, 0, 0, 0.05), 0px 31px 31px rgba(0, 0, 0, 0.09), 0px 8px 17px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 19px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: #FFF;
+}
+
+.quotes-btn .btn.btn-primary:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all;
+    background: #A2A3A4;
+    color: #FFF;
+    border: #FFF;
+}
+
+#features-text .section-header h1{
+    font-style: normal;
+    font-weight: 600;
+
+    color: #1BB5F8;
+}
+
+#features-card{
+    padding-top: 3%;
+}
+
+#features-card p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 41px;
+
+    color: #1BB5F8;
+}
+
+.bottom-button-section {
+    background: #1BB5F8;
+}
+
+ footer{
+    background-color: #A2A3A4;
+    padding-bottom: -50%;
+    margin-bottom: -50%;
+ }
+
+#footer{
+    padding: 2%;
+}
+
+ #bottom-email{
+    height: 37px;
+    right: 501px;
+    top: 3326px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: large;
+    line-height: 37px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+ }
+
+ #social-icons a{
+    padding-left: 1%;
+ }
+
+ .aboutPage-Intro-text {
+    padding-top: 10%;
+ }
+
+ .aboutPage-Intro-text h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;    
+    line-height: 101px;
+
+    color: #A2A3A4;
+ }
+
+ .aboutPage-Intro-text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+
+    color: #737576;
+ }
+
+ .aboutPage-Intro{
+    padding-bottom: 2%;
+ }
+
+ #aboutPage-Intro{
+    border-bottom: groove;
+    border-color: #ccc;
+    border-width: thin;
+}
+
+.why-section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.why-section-header h1{
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 67px;
+
+    color: #1BB5F8;
+}
+
+.why-section p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #737576;
+}
+
+#mission h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+
+    color: #1BB5F8;
+}
+
+#mission p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #737576;
+}
+
+#goals h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+
+    color: #1BB5F8;
+}
+
+#goals p{
+    color: #737576;
+    text-align: left;
+}
+
+#goals ul{
+    left: 53px;
+    top: 1648px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #737576;
+}
+
+#goals ul{
+    border-left: groove;
+    border-color: #ccc;
+    border-width: thin;
+}
+
+#founders-header h1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 67px;
+
+    color: #FFFFFF;
+}
+
+#Founders-section{
+    background: #1BB5F8;
+}
+
+#founders-card h2{
+    padding-top: 2%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    line-height: 50px;
+    
+    color: #FFFFFF;    
+}
+
+#founders-card, #role{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+#founders-card p{
+    text-align: left;
+}
+
+#role{
+    padding-bottom: 2%;
+    color: #1572B5;
+    font-weight: 700px;
+}
+
+.feature-img h4{
+    text-align: left;
+}
+
+.SignUp-Form-Body{
+    font-family: 'Montserrat';
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #1BB5F8;
+}
+
+.Form-Body-container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+} 
+
+.Form-Body-container h1{
+    font-weight: 900;
+    color: #1BB5F8;
+    text-align: center;
+}
+
+.Form-Body-container .btn{
+    max-width: 380px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+    margin: auto;
+  }
+  
+  .Form-Body-container .btn-primary{
+    background-color: #1BB5F8 !important;
+    border: 5px solid #1BB5F8 !important;
+    border-radius: 9px;
+  
+    transition: all 0.3s;
+  }
+  
+  .Form-Body-container .btn-primary:hover {
+    transform: translateY(-10px);
+    background-color: #FFF !important;
+    color: #1BB5F8;
+  }
+
+.Form-Body-container .form{
+    margin-top: 30px;
+
+}
+
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label{
+    color: #333;
+}
+
+.form :where(.input-box input, .select-box){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 6px;
+}
+
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}
+
+.form button{
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #1BB5F8;
+}
+
+.form button:hover{
+    background-color: #0f75a1;
+}
+
+/*Contact page*/
+.Contact-Intro h1{
+    padding-top: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    line-height: 96px;
+
+    color: #FFFFFF;
+}
+
+.Contact-Intro h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Contact-Intro{
+    background: #1BB5F8;
+}
+
+#Contact-Intro-img {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+.Contact-Intro img {
+    width: 947px;
+    height: auto;
+}
+
+#Chat-box {
+    padding: 5%;
+}
+
+#Chat-box h1 {
+    text-align: left;
+    color: #A2A3A4;
+    font-weight: 900;
+}
+
+.send-message .btn.btn-primary{
+    width: 280px;
+    height: 78px;
+    left: 87px;
+    top: 1548px;
+    border: none;
+    background: #1BB5F8;
+    box-shadow: 0px 124px 50px rgba(0, 0, 0, 0.01), 0px 70px 42px rgba(0, 0, 0, 0.05), 0px 31px 31px rgba(0, 0, 0, 0.09), 0px 8px 17px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.send-message .btn.btn-primary:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all;
+    background: #FFF;
+    color: #1BB5F8;
+}
+
+.send-message input[type="submit"].btn.btn-primary {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+  }
+
+  .send-message{
+    padding-bottom: 10%;
+  }
+
+  /* sign-up as page */
+
+  .sign-up-as {
+    background: #1BB5F8;
+  }
+
+  .user-prompt {
+    background: #FFF;
+    border-radius: 48px;
+    max-width: 813px;
+    height: auto;
+    margin: auto;
+  }
+
+  .sign-up-as h1 {
+    color: #1BB5F8;
+    font-weight: 900;
+  }
+
+  .sign-up-as .btn{
+    max-width: 480px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+    margin: auto;
+  }
+  
+  .sign-up-as .btn-primary{
+    background-color: #1BB5F8 !important;
+    border: 5px solid #1BB5F8 !important;
+    border-radius: 9px;
+  
+    transition: all 0.3s;
+  }
+  
+  .sign-up-as .btn-primary:hover {
+    transform: translateY(-10px);
+    background-color: #FFF !important;
+    color: #1BB5F8;
+  }
+
+  .sign-up-as h2 {
+    font-weight: 400;
+  }
+
+  .sign-up-as h2  a:link, .sign-up-as h2 a:visited, 
+  .sign-up-as h2 a:active {
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  .sign-up-as h2  a:hover {
+    color: #FFF;
+    transition: all 0.3s;
+  }
+  /* sign-up as page END */
+
+/* Tutor profile page */
+.your-tutor-profile {
+    border-radius: 0px 0px 118px 122px;
+    background: #1BB5F8;
+    padding: 5px; 
+    margin: 5px;
+}
+
+.your-tutor-profile h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.your-tutor-profile h3 {
+    font-weight: 700;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.your-tutor-profile img {
+    height: 280px;
+    max-width: 100%;
+}
+
+.your-tutor-profile ul {
+    list-style: none;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 15%;
+}
+
+.tutor-status-bar {
+    border-radius: 30px;
+    background: #1BB5F8;
+    padding: 5px;
+    margin: 5px;
+}
+
+.tutor-status-bar .btn{
+    border-radius: 18px;
+    background: #1572B5;
+    border: none;
+    width: 150px;
+    height: 50px;
+
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutor-status-bar .btn:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all;
+    color: #1572B5;
+    background: #FFF;
+}
+
+#tutorDeleteButton {
+    border-radius: 18px;
+    background: #EE0909;
+    border: none;
+    width: 180px;
+    height: 50px;
+
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#tutorDeleteButton:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all;
+    color: #EE0909;
+    background: #FFF;
+}
+
+.btnDiv {
+    padding-bottom: 1%;
+}
+
+/* Tutor chat box */
+.chat-header {
+    border-radius: 30px;
+    background: #1BB5F8;
+}
+
+.chat-header h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.client-chat-names {
+    color: #1BB5F8;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.client-message {
+    border-radius: 7px;
+    background: #FFF;
+    padding-bottom: 5px;
+    margin: 5px;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.client-message :hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all;
+}
+
+.tutors-chat-card {
+    border-radius: 41px;
+    background: rgba(217, 217, 217, 0.54);
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.badge {
+    background: #0EF66B;
+}
+
+.client-message  a:link, .client-message a:visited, 
+.client-message  a:hover, .client-message a:active {
+    text-decoration: none;
+  }
+
+.tutor-message-text {
+    border-radius: 41px;
+    background: rgba(217, 217, 217, 0.54);
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.tutor-message-text h4 {
+    border-radius: 30px;
+    background: #1BB5F8;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+.form-outline {
+    border: 1px solid #1BB5F8;
+  }
+
+.tutor-message-text .btn {
+    background: #0EF66B;
+    border-radius: 50px;
+    border: none;
+    color: #FFF;
+}
+
+#tutor-message-sent {
+    background: #FFF;
+}
+
+#tutor-message-sent p {
+    color: #000;
+}
+/* Tutor chatbox END */
+
+/* Tutor requests modal */
+.tutor-requests .modal-content {
+    border-radius: 41px;
+    background: #1572B5;
+    border: none;
+}
+
+.tutor-requests .modal-header {
+    border-radius: 30px;
+    background: #1BB5F8;
+    border: none;
+}
+
+.tutor-requests h4 {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.tutor-requests .tutor-request {
+    border-radius: 7px;
+    background: #FFF;
+}
+
+#accept-button, #decline-button {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: center;
+
+    width: 150px;
+    height: 50px;
+
+}
+
+#accept-button {
+    background: #0EF66B;
+}
+
+#decline-button {
+    background: #EE0909;
+}
+
+.tutor-request {
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.tutor-delete-account .modal-content {
+    border-radius: 41px;
+    background: #FFF;
+}
+
+.tutor-delete-account h4 {
+    color: #1BB5F8;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#perma-delete-button {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+
+    margin: 25px;
+    padding-left: 25px;
+
+    border-radius: 18px;
+    background: #EE0909;
+    border: none;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#perma-delete-button:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all;
+}
+/* Tutor requests modal END */
+
+/* Tutor profile page END */
+
+/* Search bar */
+.search-bar .btn-secondary {
+    background: #1BB5F8;
+    border: none;
+
+    margin-top: 5px;
+    padding-top: 5px;
+}
+/* Search bar END */
+
+/* Tutor cards section */ 
+#tutor-card {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.tutor-cards img {
+    max-width: 280px;
+    height: 280px;
+
+    border-radius: 20px;
+}
+
+.tutor-cards .card {
+    width: 16rem;
+    border-radius: 40px;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutor-cards h5 {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tutor-cards a:link, .tutor-cards a:visited, 
+.tutor-cards a:hover, .tutor-cards a:active {
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.tutor-cards ul {
+    list-style-type: none;
+
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.tutor-cards .card:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(0.9);
+    transition: all;
+}
+/* Tutor cards section END */ 
+
+/* Tutor request modal */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .request-modal-title {
+    border-radius: 40px;
+    background: #1572B5;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .tutor-cards .modal-footer .btn-primary{
+    background: #1572B5;
+    border: none;
+}
+
+/* Tutor request modal END */
+
+/* Tutor chat box */
+.chat-header {
+    border-radius: 30px;
+    background: #1BB5F8;
+}
+
+.chat-header h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.client-chat-names {
+    color: #1BB5F8;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.client-message {
+    border-radius: 7px;
+    background: #FFF;
+    padding-bottom: 5px;
+    margin: 5px;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.client-message :hover{
+    transition: all;
+    background: rgba(151, 148, 148, 0.377);
+}
+
+.tutors-chat-card {
+    border-radius: 41px;
+    background: rgba(217, 217, 217, 0.54);
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.badge {
+    background: #0EF66B;
+}
+
+.client-message  a:link, .client-message a:visited, 
+.client-message  a:hover, .client-message a:active {
+    text-decoration: none;
+  }
+
+.tutor-message-text {
+    border-radius: 41px;
+    background: rgba(217, 217, 217, 0.54);
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.tutor-message-text h4 {
+    border-radius: 30px;
+    background: #1BB5F8;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+.form-outline {
+    border: 1px solid #1BB5F8;
+  }
+
+.tutor-message-text .btn {
+    background: #0EF66B;
+    border-radius: 50px;
+    border: none;
+    color: #FFF;
+}
+
+#tutor-message-sent {
+    background: #FFF;
+}
+
+#tutor-message-sent p {
+    color: #000;
+}
+/* Tutor chatbox END */
+/* Notice page BEGIN */
+.notice-Intro h1{
+    padding-top: 50%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.notice-Intro h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.notice-Intro{
+    background: #1BB5F8;
+}
+
+#notice-Intro-img {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+.notice-Intro img {
+    width: 750px;
+    height: auto;
+}
+
+/* Notice page END */
